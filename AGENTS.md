@@ -334,3 +334,16 @@ valid results.
 
 ## Recent Changes
 - 001-initial-containerfile: Added initial Containerfile, Containerfile.udi, devfiles, helper scripts, podman-compose, CI workflow, README
+
+## Convention Packs
+
+This repository uses convention packs scaffolded by
+unbound-force. Agents MUST read the applicable pack(s)
+before writing or reviewing code.
+
+- `.opencode/uf/packs/default.md`
+- `.opencode/uf/packs/severity.md`
+- `.opencode/uf/packs/content.md`
+- `.opencode/uf/packs/ci.md`
+- `.opencode/uf/packs/review-voice.md`
+- `.opencode/uf/packs/meta-prompt.md`
